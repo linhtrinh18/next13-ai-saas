@@ -6,7 +6,7 @@ const nextConfig = {
       "oaidalleapiprodscus.blob.core.windows.net",
       "cdn.openai.com"
     ]
-  },
+  }
 }
 
 module.exports = nextConfig

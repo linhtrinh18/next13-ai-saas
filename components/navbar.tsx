@@ -8,6 +8,8 @@ const Navbar = async () => {
   const apiLimitCount = await getApiLimitCount();
   const isPro = await checkSubscription();
 
+  console.log({apiLimitCount, isPro})
+
   return ( 
     <div className="flex items-center p-4">
       <MobileSidebar isPro={isPro} apiLimitCount={apiLimitCount} />
